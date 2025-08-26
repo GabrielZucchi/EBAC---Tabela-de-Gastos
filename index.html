@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Controle de Gastos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Controle de Gastos</h1>
+            <form>
+            <input type="text" placeholder="Digite o valor da sua despesa (ex.: 5,00)" id="valor" />
+            <select id="categoria">
+                <option>Alimentação</option>
+                <option>Transporte</option>
+                <option>Lazer</option>
+                <option>Outros</option>
+            </select>
+            <button type="submit">Adicionar</button>
+            </form>
+            <p id="alimentacao">Alimentação: R$ 0,00</p>
+            <p id="transporte">Transporte: R$ 0,00</p>
+            <p id="lazer">Lazer: R$ 0,00</p>
+            <p id="outros">Outros: R$ 0,00</p>
+            <p id="total">Total: R$ 0,00</p>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
